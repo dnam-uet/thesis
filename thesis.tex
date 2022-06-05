@@ -214,9 +214,6 @@ Tôi xin cam đoan những nội dung tôi trình bày trong khóa luận là do
 		\textbf{ML}  & Maximum Likelihood  & Tiêu chuẩn hợp lý cực đại \\[0.3cm]
 		\textbf{MP}  & Maximum Parsimony & Tiêu chuẩn tiết kiệm nhất \\[0.3cm]
 		\textbf{RAM}  & Random access memory & Bộ nhớ mềm \\[0.3cm]
-		\textbf{SEO}  & Search engine optimization  & kiếm \\[0.3cm]
-		\textbf{CMS}  & Content management system & Hệ thống quản trị nội dung \\[0.3cm]
-		\textbf{SPA}  & Single Page Application & Ứng dụng đơn trang \\[0.3cm]
 		\textbf{JSON}  & JavaScript Object Notation & Kiểu dữ liệu theo từ khóa-giá trị \\[0.3cm]
 		\textbf{UI}  & User Interface  & Giao diện người dùng \\[0.3cm]
 		\textbf{UX}  & User Experience  & Trải nghiệm người dùng \\[0.3cm]
@@ -760,6 +757,7 @@ Tại phần này, ứng dụng sẽ kiểm tra xem có tồn tại thông tin v
 \chapter{Hệ thống thực nghiệm}
 \label{chap:chapter5}
 \section{Chương trình thực nghiệm }
+
 Chương trình được cài đặt và công khai mã nguồn tại \url{ https://github.com/sonntuet1997/gIqtree }
 
 Ứng dụng phía back-end được thiết kế dưới dạng các sự kiện trả về dữ liệu để thuận tiện cho bên front-end xử lý về mặt hiển thị cũng như tách biệt được việc phát triển logic chính của ứng dụng và logic hiển thị cũng như hiển thị của ứng dụng. 
@@ -869,6 +867,14 @@ Tệp chứa các dữ liệu tinh chỉnh cài đặt sẽ gồm các tham số
     
     - enterCommandLine: cho phép thực hiện các tham số mở rộng bằng cách người dùng tự gõ.
 
+ \begin{figure}[h]
+	\centering
+	\includegraphics[scale=0.55]{Image/5.1.png}
+	\caption{ Giao diện của ứng dụng GIQ-TREE }
+	\label{fig:image5.1}
+\end{figure}
+
+\newpage
 \begin{lstlisting}[language=Java,
 caption={Dữ liệu cài đặt mặc định phân cấp với dự án kiểu Find Model },label={code:jdt-ast-gen}]
 {
